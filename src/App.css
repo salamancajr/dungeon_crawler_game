@@ -1,0 +1,82 @@
+.App2 {
+  text-align: center;
+  height:400px;
+  width:400px;
+}
+.App {
+  text-align: center;
+  
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.box{
+  height: 20px;
+  width: 20px;
+  
+  float: left;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+
+#pongBall{
+  width:20px; 
+    height:20px;
+  background-image:url("https://thumbs.dreamstime.com/b/grizzly-bear-close-up-11758361.jpg");
+  background-size:cover;
+  position:center;
+position:absolute;
+z-index:1
+}
+body{
+  overflow-x:scroll;
+  overflow-y:scroll;
+  background-color: rgb(56, 16, 16);
+  margin: 0;
+  padding: 0;
+  font-family: 'Biryani';
+}
+
+.button {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
