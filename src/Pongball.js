@@ -197,11 +197,11 @@ energy=0
      d.style.left="35px"
      d.style.background="grey"
      d.style.border="15px ridge blue"
-     d.style.height="200px"
+     d.style.height="220px"
      d.style.width="300px"
      d.style.opacity=.7
      d.id="redButton3"
-     var s="Snakes_have_ransacked\nbear\'s_cave_and_taken\nher_cub_as_dinner.\nSave_the_cub_before\nthe_snakes_make_a_meal\nout_of_him! \n\nCLICK_TO_BEGIN..."
+     var s="Snakes_have_ransacked\nbear\'s_cave_and_taken\nher_cub_as_dinner.\nSave_the_cub_before\nthe_snakes_make_a_meal\nout_of_him! \n\nCLICK_HERE_THEN_CLICK_BEAR\nTO_BEGIN..."
      d.style.fontFamily="Caesar Dressing"
 var v =0
 
