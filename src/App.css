@@ -1,12 +1,13 @@
 .App2 {
   text-align: center;
-  height:400px;
-  width:400px;
+  height: 400px;
+  width: 400px;
 }
+
 .App {
   text-align: center;
-  
 }
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -28,32 +29,35 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.box{
+.box {
   height: 20px;
   width: 20px;
-  
   float: left;
   transition: all 0.2s ease;
   cursor: pointer;
 }
 
-
-#pongBall{
-  width:20px; 
-    height:20px;
-  background-image:url("https://thumbs.dreamstime.com/b/grizzly-bear-close-up-11758361.jpg");
-  background-size:cover;
-  position:center;
-position:absolute;
-z-index:1
+#pongBall {
+  width: 20px;
+  height: 20px;
+  background-image: url(https://thumbs.dreamstime.com/b/grizzly-bear-close-up-11758361.jpg);
+  background-size: cover;
+  position: center;
+  position: absolute;
+  z-index: 1
 }
-body{
-  overflow-x:scroll;
-  overflow-y:scroll;
+
+body {
+  overflow-x: scroll;
+  overflow-y: scroll;
   background-color: rgb(56, 16, 16);
   margin: 0;
   padding: 0;
@@ -73,10 +77,83 @@ body{
   box-shadow: 0 6px #999;
 }
 
-.button:hover {background-color: #3e8e41}
+.button:hover {
+  background-color: #3e8e41
+}
 
 .button:active {
   background-color: #3e8e41;
   box-shadow: 0 4px #666;
   transform: translateY(4px);
+}
+
+#intro-text {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  background: grey;
+  border: 15px ridge blue;
+  height: 220px;
+  width: 300px;
+  opacity: .7;
+  cursor: pointer;
+  color: blue;
+  font-size: 20px;
+  z-index: 1;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+  font-family: Caesar Dressing;
+}
+
+#the_end_text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(https://images.unsplash.com/photo-1520246819288-8bcefb7ac966?ixlib:rb-0.3.5&ixid:eyJhcHBfaWQiOjEyMDd9&s:0861c0b1d9b9586d6b37a41b21b34145&auto:format&fit:crop&w:750&q:80);
+  height: 400px;
+  width: 400px;
+  opacity: 1;
+  color: blue;
+  font-size: 40px;
+  z-index: 1;
+  display: none;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#gameover-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  height: 400px;
+  width: 400px;
+  opacity: .8;
+  cursor: pointer;
+  color: red;
+  font-size: 40px;
+  z-index: 1;
+  display: none;
+}
+
+#header{
+  top:0;
+  left:0;
+  background:grey;
+  border:15px ridge blue;
+  height:100px;
+  width:150px;
+  opacity:.9;
+  color:blue;
+  font-size:20px;
+  z-index:1;
+  display:block;
+}
+
+.dark{
+  z-index:1;
+  position:absolute;
+  background: black;
 }

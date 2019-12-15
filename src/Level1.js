@@ -1,4 +1,4 @@
-export var mapData = 
+export var mapData =
 
 [
 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -24,4 +24,3 @@ export var mapData =
  ]
 
  export var pixels=[400, 400]
- export var pixls=[400, 400]
