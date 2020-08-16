@@ -52,7 +52,7 @@
   background-size: cover;
   position: center;
   position: absolute;
-  z-index: 1
+  z-index: 1;
 }
 
 body {
@@ -65,20 +65,22 @@ body {
 }
 
 .button {
+  padding: 0;
+  font-size: 0.75rem;
   display: inline-block;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   border: none;
   border-radius: 15px;
   box-shadow: 0 6px #999;
 }
 
 .button:hover {
-  background-color: #3e8e41
+  background-color: #3e8e41;
 }
 
 .button:active {
@@ -95,7 +97,7 @@ body {
   border: 15px ridge blue;
   height: 220px;
   width: 300px;
-  opacity: .7;
+  opacity: 0.7;
   cursor: pointer;
   color: blue;
   font-size: 20px;
@@ -130,7 +132,7 @@ body {
   background: black;
   height: 400px;
   width: 400px;
-  opacity: .8;
+  opacity: 0.8;
   cursor: pointer;
   color: red;
   font-size: 40px;
@@ -138,22 +140,22 @@ body {
   display: none;
 }
 
-#header{
-  top:0;
-  left:0;
-  background:grey;
-  border:15px ridge blue;
-  height:100px;
-  width:150px;
-  opacity:.9;
-  color:blue;
-  font-size:20px;
-  z-index:1;
-  display:block;
+#header {
+  top: 0;
+  left: 0;
+  background: grey;
+  border: 15px ridge blue;
+  height: 100px;
+  width: 150px;
+  opacity: 0.9;
+  color: blue;
+  font-size: 20px;
+  z-index: 1;
+  display: block;
 }
 
-.dark{
-  z-index:1;
-  position:absolute;
+.dark {
+  z-index: 1;
+  position: absolute;
   background: black;
 }
